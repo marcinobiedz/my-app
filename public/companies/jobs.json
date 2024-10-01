@@ -50,5 +50,31 @@
         "brazil": 279,
         "malaysia": 78,
         "uae": 169
+    },
+    {
+        "date": "2024-09-26",
+        "point": 134,
+        "citadel": 0,
+        "millennium": 165,
+        "bam": 53
+        "singapore": 241,
+        "hongKong": 134,
+        "colombia": 34,
+        "brazil": 279,
+        "malaysia": 78,
+        "uae": 169
+    },
+    {
+        "date": "2024-09-30",
+        "point": 138,
+        "citadel": 0,
+        "millennium": 163,
+        "bam": 63
+        "singapore": 236,
+        "hongKong": 142,
+        "colombia": 36,
+        "brazil": 166,
+        "malaysia": 86,
+        "uae": 167
     }
 ]
