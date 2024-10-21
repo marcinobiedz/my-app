@@ -4,7 +4,7 @@
         "point": 137,
         "citadel": 1,
         "millennium": 173,
-        "bam": 62
+        "bam": 62,
         "singapore": 255,
         "hongKong": 182,
         "colombia": 43,
@@ -17,7 +17,7 @@
         "point": 138,
         "citadel": 0,
         "millennium": 170,
-        "bam": 60
+        "bam": 60,
         "singapore": 248,
         "hongKong": 173,
         "colombia": 29,
@@ -30,7 +30,7 @@
         "point": 136,
         "citadel": 0,
         "millennium": 164,
-        "bam": 56
+        "bam": 56,
         "singapore": 247,
         "hongKong": 152,
         "colombia": 33,
@@ -43,7 +43,7 @@
         "point": 134,
         "citadel": 0,
         "millennium": 165,
-        "bam": 53
+        "bam": 53,
         "singapore": 241,
         "hongKong": 134,
         "colombia": 34,
@@ -56,7 +56,7 @@
         "point": 134,
         "citadel": 0,
         "millennium": 165,
-        "bam": 53
+        "bam": 53,
         "singapore": 241,
         "hongKong": 134,
         "colombia": 34,
@@ -69,7 +69,7 @@
         "point": 138,
         "citadel": 0,
         "millennium": 163,
-        "bam": 63
+        "bam": 63,
         "singapore": 236,
         "hongKong": 142,
         "colombia": 36,
@@ -82,7 +82,7 @@
         "point": 137,
         "citadel": 0,
         "millennium": 164,
-        "bam": 60
+        "bam": 60,
         "singapore": 244,
         "hongKong": 140,
         "colombia": 42,
@@ -95,7 +95,7 @@
         "point": 139,
         "citadel": 0,
         "millennium": 168,
-        "bam": 60
+        "bam": 60,
         "singapore": 228,
         "hongKong": 146,
         "colombia": 37,
@@ -108,7 +108,7 @@
         "point": 139,
         "citadel": 0,
         "millennium": 171,
-        "bam": 59
+        "bam": 59,
         "singapore": 212,
         "hongKong": 153,
         "colombia": 45,
@@ -121,7 +121,7 @@
         "point": 138,
         "citadel": 0,
         "millennium": 176,
-        "bam": 60
+        "bam": 60,
         "singapore": 211,
         "hongKong": 144,
         "colombia": 48,
@@ -134,12 +134,25 @@
         "point": 137,
         "citadel": 0,
         "millennium": 176,
-        "bam": 67
+        "bam": 67,
         "singapore": 195,
         "hongKong": 136,
         "colombia": 40,
         "brazil": 140,
         "malaysia": 97,
         "uae": 90
+    },
+    {
+        "date": "2024-10-21",
+        "point": 138,
+        "citadel": 0,
+        "millennium": 170,
+        "bam": 63,
+        "singapore": 196,
+        "hongKong": 129,
+        "colombia": 36,
+        "brazil": 132,
+        "malaysia": 100,
+        "uae": 87
     }
 ]
