@@ -38,11 +38,11 @@ async function performTask() {
   console.log(`[${timestamp}] [Task ${myTaskId}] Triggered.`);
 
   try {
-    const delayMinutes = Math.floor(Math.random() * 3) + 1;
-    console.log(`[${timestamp}] [Task ${myTaskId}] Waiting ${delayMinutes} min before starting...`);
-    
-    // Czekanie z możliwością przerwania
-    for (let i = 0; i < delayMinutes * 60; i++) {
+    const delaySeconds = Math.floor(Math.random() * 120) + 60; // Losowo 60-180 sekund (1-3 minuty)
+    console.log(`[${timestamp}] [Task ${myTaskId}] Waiting ${delaySeconds} seconds before starting...`);
+
+    // Czekanie z możliwością przerwania (co 1 sekunda sprawdzamy status)
+    for (let i = 0; i < delaySeconds; i++) {
       await new Promise(resolve => setTimeout(resolve, 1000));
       if (myTaskId !== currentTaskId) {
         console.log(`[Task ${myTaskId}] CANCELED (new task started).`);
