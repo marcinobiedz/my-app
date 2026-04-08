@@ -19,15 +19,18 @@ const MAIN_EMAIL = process.env.EMAIL_TO || '';
 const ADMIN_EMAIL = 'marcin.obiedz@gmail.com';
 const ALERT_RECIPIENTS = [MAIN_EMAIL, ADMIN_EMAIL];
 
-const DATE_RANGES = Array.from({ length: 10 }, (_, i) => {
-  const startDay = i + 1;
-  const endDay = startDay + 5;
-  const pad = (n: number) => n.toString().padStart(2, '0');
-  return {
-    from: `${YEAR}-09-${pad(startDay)}`,
-    to: `${YEAR}-09-${pad(endDay)}`
-  };
-});
+const DATE_RANGES = [
+  { from: `${YEAR}-05-14`, to: `${YEAR}-05-20` },
+  ...Array.from({ length: 10 }, (_, i) => {
+    const startDay = i + 1;
+    const endDay = startDay + 5;
+    const pad = (n: number) => n.toString().padStart(2, '0');
+    return {
+      from: `${YEAR}-09-${pad(startDay)}`,
+      to: `${YEAR}-09-${pad(endDay)}`
+    };
+  })
+];
 
 let currentTaskId = 0;
 
