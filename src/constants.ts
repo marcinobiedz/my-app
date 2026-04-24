@@ -16,9 +16,7 @@ const MAIN_EMAIL = process.env.EMAIL_TO || '';
 export const ADMIN_EMAIL = 'marcin.obiedz@gmail.com';
 export const ALERT_RECIPIENTS = [MAIN_EMAIL, ADMIN_EMAIL];
 
-export const DATE_RANGES = [
-  { from: `${YEAR}-05-14`, to: `${YEAR}-05-20` },
-  ...Array.from({ length: 10 }, (_, i) => {
+export const DATE_RANGES = Array.from({ length: 10 }, (_, i) => {
     const startDay = i + 1;
     const endDay = startDay + 5;
     const pad = (n: number) => n.toString().padStart(2, '0');
@@ -27,4 +25,3 @@ export const DATE_RANGES = [
       to: `${YEAR}-09-${pad(endDay)}`
     };
   })
-];
