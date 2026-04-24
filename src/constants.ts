@@ -16,12 +16,12 @@ const MAIN_EMAIL = process.env.EMAIL_TO || '';
 export const ADMIN_EMAIL = 'marcin.obiedz@gmail.com';
 export const ALERT_RECIPIENTS = [MAIN_EMAIL, ADMIN_EMAIL];
 
-export const DATE_RANGES = Array.from({ length: 10 }, (_, i) => {
-    const startDay = i + 1;
-    const endDay = startDay + 5;
-    const pad = (n: number) => n.toString().padStart(2, '0');
-    return {
-      from: `${YEAR}-09-${pad(startDay)}`,
-      to: `${YEAR}-09-${pad(endDay)}`
-    };
-  })
+export const DATE_RANGES = Array.from({ length: 8 }, (_, i) => {
+  const startDay = i + 1;
+  const endDay = startDay + 5;
+  const pad = (n: number) => n.toString().padStart(2, '0');
+  return {
+    from: `${YEAR}-09-${pad(startDay)}`,
+    to: `${YEAR}-09-${pad(endDay)}`
+  };
+})
