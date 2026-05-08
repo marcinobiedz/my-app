@@ -9,7 +9,7 @@ export const RESORT_MAP: Record<string, string> = {
   '1': 'Pobierowo'
 };
 
-export const RESORT_IDS = Object.keys(RESORT_MAP);
+export const RESORT_IDS = ['8'];
 const YEAR = 2026;
 
 const MAIN_EMAIL = process.env.EMAIL_TO || '';
